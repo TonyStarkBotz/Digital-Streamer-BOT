@@ -48,7 +48,7 @@ async def start(b, m):
             if user.status == "kicked":
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="__𝓢𝓞𝓡𝓡𝓨, 𝓨𝓞𝓤 𝓐𝓡𝓔 𝓐𝓡𝓔 𝓑𝓐𝓝𝓝𝓔𝓓 𝓕𝓡𝓞𝓜 𝓤𝓢𝓘𝓝𝓖 𝓜𝓔. 𝓒ᴏɴᴛᴀᴄᴛ ᴛʜᴇ LazY𝓓ᴇᴠᴇʟᴏᴘᴇʀ__\n\n  **𝙃𝙚 𝙬𝙞𝙡𝙡 𝙝𝙚𝙡𝙥 𝙮𝙤𝙪**",
+                    text="__𝓢𝓞𝓡𝓡𝓨, 𝓨𝓞𝓤 𝓐𝓡𝓔 𝓐𝓡𝓔 𝓑𝓐𝓝𝓝𝓔𝓓 𝓕𝓡𝓞𝓜 𝓤𝓢𝓘𝓝𝓖 𝓜𝓔. 𝓒ᴏɴᴛᴀᴄᴛ ᴛʜᴇ Tony Stark__\n\n  **𝙃𝙚 𝙬𝙞𝙡𝙡 𝙝𝙚𝙡𝙥 𝙮𝙤𝙪**",
                     disable_web_page_preview=True
                 )
                 return
@@ -70,7 +70,7 @@ async def start(b, m):
         except Exception:
             await b.send_message(
                 chat_id=m.chat.id,
-                text="<i>Something went wrong</i> <b> <a href='https://t.me/LazyPrincessSupport'>CLICK HERE FOR SUPPORT </a></b>",
+                text="<i>Something went wrong</i> <b> <a href='https://t.me/DigitalGalaxyHQxSupport'>CLICK HERE FOR SUPPORT </a></b>",
                 
                 disable_web_page_preview=True)
             return
@@ -118,7 +118,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [Support](https://t.me/LazyPrincessSupport).",
+                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [Support](https://t.me/DigitalGalaxyHQxSupport).",
                 disable_web_page_preview=True)
             return
     await message.reply_text(
@@ -128,8 +128,8 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("💁‍♂️ Owner", url="https://github.com/LazyDeveloperr")],
-                [InlineKeyboardButton("💥 Source Code", url="https://github.com/LazyDeveloperr/Lazy-Streamer-BOT")]
+                [InlineKeyboardButton("💁‍♂️ Owner", url="https://github.com/DigitalGalaxyHQ")],
+                [InlineKeyboardButton("💥 Source Code", url="https://github.com/DigitalGalaxyHQ")]
             ]
         )
     )
